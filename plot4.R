@@ -24,7 +24,7 @@ with(data1, {
          , cex=.5) 
   
   plot(Global_reactive_power~Datetime, type="l", 
-       ylab="Global Rective Power (kilowatts)",xlab="")
+       ylab="Global Rective Power (kilowatts)",xlab="datetime")
 })
 
 dev.copy(png, file="plot4.png", height=480, width=480)
